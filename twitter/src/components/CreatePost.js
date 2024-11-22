@@ -19,7 +19,7 @@ const CreatePost = () => {
                         <div>
                             <Avatar src="https://pbs.twimg.com/profile_images/1819726682690859008/5p_ElaV4_400x400.jpg" size='40' round={true} />
                         </div>
-                        <input className='w-full outline-none border-none text-lg ml-2' type='text' placeholder='What is happening?!' />
+                        <input className='w-full outline-none border-none text-xl ml-2' type='text' placeholder='What is happening?!' />
                     </div>
                 <div className='flex items-center justify-between p-4 border-b border-gray-300'>
                     <div>
