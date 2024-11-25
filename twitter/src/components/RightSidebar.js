@@ -17,8 +17,22 @@ const RightSidebar = () => {
               <Avatar src="https://pbs.twimg.com/profile_images/1819726682690859008/5p_ElaV4_400x400.jpg" size='40' round={true} />
             </div>
             <div className='ml-2'>
-              <h1 className='font-blod'>Khush</h1>
-              <p className='text-sm'>KhushHuMai</p>
+              <h1 className='font-blod'>Anand</h1>
+              <p className='text-sm'>means_Khush</p>
+            </div>
+         </div>
+          <div>
+            <button className='px-4 py-1 bg-black text-white rounded-full'>Profile</button>
+          </div>
+        </div>
+        <div className='flex items-center justify-between my-3'>
+          <div className='flex'>
+            <div>
+              <Avatar src="https://pbs.twimg.com/profile_images/1819726682690859008/5p_ElaV4_400x400.jpg" size='40' round={true} />
+            </div>
+            <div className='ml-2'>
+              <h1 className='font-blod'>Anand</h1>
+              <p className='text-sm'>means_Khush</p>
             </div>
           </div>
           <div>
@@ -31,22 +45,8 @@ const RightSidebar = () => {
               <Avatar src="https://pbs.twimg.com/profile_images/1819726682690859008/5p_ElaV4_400x400.jpg" size='40' round={true} />
             </div>
             <div className='ml-2'>
-              <h1 className='font-blod'>Khush</h1>
-              <p className='text-sm'>KhushHuMai</p>
-            </div>
-          </div>
-          <div>
-            <button className='px-4 py-1 bg-black text-white rounded-full'>Profile</button>
-          </div>
-        </div>
-        <div className='flex items-center justify-between my-3'>
-          <div className='flex'>
-            <div>
-              <Avatar src="https://pbs.twimg.com/profile_images/1819726682690859008/5p_ElaV4_400x400.jpg" size='40' round={true} />
-            </div>
-            <div className='ml-2'>
-              <h1 className='font-blod'>Khush</h1>
-              <p className='text-sm'>KhushHuMai</p>
+              <h1 className='font-blod'>Anand</h1>
+              <p className='text-sm'>means_Khush</p>
             </div>
           </div>
           <div>

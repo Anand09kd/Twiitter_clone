@@ -5,6 +5,7 @@ import { IoIosNotifications } from "react-icons/io";
 import { CiUser } from 'react-icons/ci'
 import { CiBookmark } from 'react-icons/ci'
 import { CiLogout } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 function LeftSidebar() {
   return (
@@ -13,12 +14,12 @@ function LeftSidebar() {
             <img className='ml-4' width={'28px'} src='https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png' alt='twitter logo'/>
         </div>
         <div className='my-4'>
-            <div className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
+            <Link to='/' className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
                 <div>
                     <CiHome size='24px'/>
                 </div>
                 <h1 className='font-bold text-lg ml-2'>Home</h1>
-            </div>
+            </Link>
             <div className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
                 <div>
                     <CiHashtag size='24px'/>
@@ -31,12 +32,12 @@ function LeftSidebar() {
                 </div>
                 <h1 className='font-bold text-lg ml-2'>Notifications</h1>
             </div>
-            <div className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
+            <Link to='/profile' className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
                 <div>
                     <CiUser size='24px' />
                 </div>
                 <h1 className='font-bold text-lg ml-2'>Profile</h1>
-            </div>
+            </Link>
             <div className='flex item-center my-2 px-4 py-2 hover:bg-gray-200 cursor-pointer rounded-full'>
                 <div>
                     <CiBookmark size='24px' />
