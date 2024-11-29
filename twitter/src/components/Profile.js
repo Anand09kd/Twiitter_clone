@@ -5,7 +5,7 @@ import Avatar from 'react-avatar';
 
 const Profile = () => {
   return (
-    <div className='w-[50%]'>
+    <div className='w-[50%] border-l border-r border-gray-200'>
       <div>
         <div className='flex items-center py-2'>
           <Link to='/' className='p-2 rounded-full hover:bg-gray-100 hover:cursor-pointer'>
@@ -28,7 +28,7 @@ const Profile = () => {
           <p>@AKD_developer</p>
         </div>
         <div className='m-4 text-sm'>
-          <p>Dedicated and detail-oriented software developer with a strong foundation in MERN stack development. Proficient in building and deploying web applications, with a focus on creating efficient, scalable solutions. Passionate about learning new technologies and solving complex problems. Seeking to leverage technical skills and hands-on experience in a dynamic and collaborative environment.</p>
+          <p>Dedicated and detail-oriented software developer with a strong foundation in MERN stack development.</p>
         </div>
       </div>
     </div>
